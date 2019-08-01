@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+    <title>Carroussel Yoan</title>
+</head>
+<body>
+
+        <a id="show-panel" href="#">Show Panel</a>
+
+<div id="lightbox-panel">
+    <h2>Lightbox Panel</h2>
+    <span id="sl_play" class="sl_command"></span>
+<span id="sl_pause" class="sl_command"></span>
+ 
+<span id="sl_i1" class="sl_command sl_i"></span>
+<span id="sl_i2" class="sl_command sl_i"></span>
+<span id="sl_i3" class="sl_command sl_i"></span>
+<span id="sl_i4" class="sl_command sl_i"></span>
+    <section id="slideshow">
+            <a class="commands prev commands1" href="#sl_i4" title="Aller à la dernière slide">&lt;</a>
+            <a class="commands next commands1" href="#sl_i2" title="Aller à la 2ème slide">&gt;</a>
+            <a class="commands prev commands2" href="#sl_i1" title="Aller à la 1ère slide">&lt;</a>
+            <a class="commands next commands2" href="#sl_i3" title="Aller à la 3ème slide">&gt;</a>
+            <a class="commands prev commands3" href="#sl_i2" title="Aller à la 2ème slide">&lt;</a>
+            <a class="commands next commands3" href="#sl_i4" title="Aller à la 4ème slide">&gt;</a>
+            <a class="commands prev commands4" href="#sl_i3" title="Aller à la 3ème slide">&lt;</a>
+            <a class="commands next commands4" href="#sl_i1" title="Aller à la 1ère slide">&gt;</a>
+            <div class="container">
+                <div class="c_slider"></div>
+                <div class="slider">
+                    <figure>
+                        <img src="img/voleur.gif" alt="" width="640" height="310" />
+                        <figcaption>The mirror of soul</figcaption>
+        
+                    </figure><!--
+                    --><figure>
+                        <img src="img/chaman.gif" alt="" width="640" height="310" />
+                        <figcaption>Let's cross that bridge when we come to it</figcaption>
+                    </figure><!--
+                    --><figure>
+                        <img src="img/chasseur.gif" alt="" width="640" height="310" />
+                        <figcaption>Sushi<em>(do)</em> time</figcaption>
+        
+                    </figure><!--
+                    --><figure>
+                        <img src="img/chasseur2.gif" alt="" width="640" height="310" />
+                        <figcaption>Waking Life</figcaption>
+                    </figure>
+                </div>
+            </div>
+                
+            <span id="timeline"></span>
+            <ul class="dots_commands"><!--
+            --><li><a title="Afficher la slide 1" href="#sl_i1">Slide 1</a></li><!--
+            --><li><a title="Afficher la slide 2" href="#sl_i2">Slide 2</a></li><!--
+            --><li><a title="Afficher la slide 3" href="#sl_i3">Slide 3</a></li><!--
+            --><li><a title="Afficher la slide 4" href="#sl_i4">Slide 4</a></li>
+        </ul>
+        </section>
+    <p align="center"><a id="close-panel" href="#">Close this window</a></p>
+</div>
+<!-- /lightbox-panel -->
+<div id="lightbox"></div>
+<!-- /lightbox -->
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
